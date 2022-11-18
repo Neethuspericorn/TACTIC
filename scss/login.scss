@@ -106,26 +106,22 @@
                     .form-box {
                         padding-bottom: 25px;
                         position: relative;
-
-                        .mail-form-control,
-                        .pass-form-control {
+                        .form-control{
                             padding-left: 70px;
-                            background-position: 30px center;
-                            background-size: 19px;
-                            background-repeat: no-repeat;
                         }
-
-                        .mail-form-control {
-                            background-image: url('../img/mail.svg');
+                        .form-icons{
+                            position: absolute;
+                            top: 0;
+                            left: 25px;
+                            bottom: 0;
+                            margin: auto;
+                            height: 28px;
                         }
-
-                        .pass-form-control {
-                            background-image: url('../img/lock.svg');
-                        }
-
                         .password-view-box {
                             position: relative;
-
+                            .form-control{
+                                padding-right: 60px !important;
+                            }
                             .password-view {
                                 position: absolute;
                                 top: 0;
@@ -134,6 +130,7 @@
                                 margin: auto;
                                 height: 40px;
                             }
+                            
                         }
 
                     }
@@ -431,13 +428,18 @@
     .authentication .authentication-row .authentication-form-wrapper .authentication-form .forgot-header h4 {
         margin-top: 49px;
     }
+    .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-icons {
+        left: 15px;
+    }
 }
 
 @media ($sm-1281) {
     .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header {
         margin-bottom: 20px;
     }
-
+    .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-icons {
+        width: 13px;
+    }
     .authentication .authentication-row .authentication-form-wrapper {
         padding: 30px 50px;
     }

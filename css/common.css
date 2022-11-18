@@ -129,6 +129,9 @@ body {
   background: #6F109E;
   color: #bdbdbd; }
 
+a {
+  cursor: pointer; }
+
 .pr-0 {
   padding-right: 0; }
 

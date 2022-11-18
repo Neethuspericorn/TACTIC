@@ -91,18 +91,19 @@
       .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box {
         padding-bottom: 25px;
         position: relative; }
-        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .mail-form-control,
-        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .pass-form-control {
-          padding-left: 70px;
-          background-position: 30px center;
-          background-size: 19px;
-          background-repeat: no-repeat; }
-        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .mail-form-control {
-          background-image: url("../img/mail.svg"); }
-        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .pass-form-control {
-          background-image: url("../img/lock.svg"); }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-control {
+          padding-left: 70px; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-icons {
+          position: absolute;
+          top: 0;
+          left: 25px;
+          bottom: 0;
+          margin: auto;
+          height: 28px; }
         .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box {
           position: relative; }
+          .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box .form-control {
+            padding-right: 60px !important; }
           .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box .password-view {
             position: absolute;
             top: 0;
@@ -332,10 +333,16 @@
     font-size: 15px; }
 
   .authentication .authentication-row .authentication-form-wrapper .authentication-form .forgot-header h4 {
-    margin-top: 49px; } }
+    margin-top: 49px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-icons {
+    left: 15px; } }
 @media (max-width: 1281px) {
   .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header {
     margin-bottom: 20px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-icons {
+    width: 13px; }
 
   .authentication .authentication-row .authentication-form-wrapper {
     padding: 30px 50px; }
