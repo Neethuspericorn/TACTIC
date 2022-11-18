@@ -1,0 +1,73 @@
+@import "variables";
+@import "mixins";
+// button custom
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    &.btn-outline{
+        border: 1px solid $primary-color;
+        color: $primary-color;
+        &:hover{
+            background-color: #F5EDFF;
+        }
+    }
+    &.btn-change{
+        color: $primary-color;
+        background-color: #F5EDFF;
+        font-size: 11px;
+        padding: 9px 30px;
+    }
+
+    &.btn-success{
+        height: 30px;
+        font-size: 13px;
+        background-color: #D5F8EB;
+        border-color: #C3F1E0;
+        color: #17BA7F;
+    }
+    &.btn-danger{
+        height: 30px;
+        font-size: 13px;
+        background-color: #FFE1E4;
+        border-color: #FED0D4;
+        color: #E93445;
+    }
+    &.btn-success,
+    &.btn-danger{
+        padding-left: 8px;
+        padding-right: 8px;
+        img{
+          width: 16px;
+          object-fit: contain;     
+        }
+    }
+}
+
+.table-alert-sm{
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 15px 5px 10px;
+    font-size: 13px;
+    font-family: 'sf-regular';
+    border-radius: 15px;
+    margin: 2px;
+    transition: .3s;
+    img{
+        margin-right: 8px;
+    }
+    &.alert-approved{
+        background-color: #D5F8EB;
+        color: #17BA7F;
+        border: 1px solid #C3F1E0;
+    }
+    &.alert-rejected{
+        background-color: #FFE1E4;
+        color: #E93445;
+        border: 1px solid #FED0D4;
+    }
+    @media ($sm-1480) {
+        font-size: 12px;
+    }
+}

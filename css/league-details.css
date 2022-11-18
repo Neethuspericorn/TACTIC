@@ -1,0 +1,125 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.info-media-wrap {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  overflow: auto;
+  padding-bottom: 10px; }
+  .info-media-wrap .info-media-item {
+    width: 125px;
+    height: 118px;
+    flex: 0 0 125px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; }
+    .info-media-wrap .info-media-item .media-overlay {
+      inset: 0;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 21px; }
+      .info-media-wrap .info-media-item .media-overlay.videoThumb, .info-media-wrap .info-media-item .media-overlay.more {
+        background-color: rgba(0, 0, 0, 0.5); }
+    .info-media-wrap .info-media-item img, .info-media-wrap .info-media-item video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px; }
+    .info-media-wrap .info-media-item .play {
+      width: 30px;
+      height: 30px;
+      object-fit: contain; }
+
+.review-content .review-txt {
+  color: #6D5A77;
+  font-style: italic;
+  font-family: 'sf-pro-light';
+  font-size: 12px; }
+.review-content .review-usr {
+  color: #5C2579;
+  font-size: 11px;
+  font-family: 'sf-regular'; }
+
+.league .info-title.entryFee {
+  margin-bottom: 5px; }
+.league .price small {
+  font-size: 14px; }
+
+.col-league {
+  padding-top: 30px; }
+
+.reviewModal .modal-header,
+.reviewModal .modal-body {
+  padding-left: 70px;
+  padding-right: 40px; }
+.reviewModal .modal-body {
+  padding-top: 5px; }
+.reviewModal .modal-header {
+  padding-bottom: 5px; }
+  .reviewModal .modal-header .modal-title {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #330948;
+    font-family: 'sf-medium';
+    width: calc(100% - 70px);
+    border-bottom: 1px solid rgba(112, 112, 112, 0.09); }
+.reviewModal .reviews-content {
+  max-height: 520px;
+  overflow: auto;
+  font-size: 19px; }
+.reviewModal .review-item {
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.09);
+  padding-top: 30px;
+  width: calc(100% - 70px); }
+  .reviewModal .review-item .name {
+    color: #6D5A77;
+    font-size: 15px;
+    font-family: 'sf-medium'; }
+  .reviewModal .review-item .revTxt {
+    padding-top: 12px;
+    font-size: 14px;
+    line-height: 1.643;
+    color: #6D5A77;
+    font-family: 'sf-pro-light'; }
+
+.rating {
+  display: flex; }
+  .rating .stars {
+    display: flex;
+    gap: 5px;
+    margin-right: 10px; }
+    .rating .stars img {
+      width: 13px;
+      object-fit: contain; }
+  .rating .rateVal {
+    font-size: 14px;
+    font-family: 'sf-medium';
+    color: #6D5A77; }
+  .rating .dated {
+    color: #C3B8C8;
+    font-size: 9px;
+    line-height: 2.83;
+    font-family: 'sf-pro-light';
+    margin-left: 6px; }
+
+/*# sourceMappingURL=league-details.css.map */

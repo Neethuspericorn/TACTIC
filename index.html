@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="./img/fav_icons.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+
+<body>
+    <div class="dashboard-header">
+        <div class="side-nav-header">
+            <a href="#" class="logo">
+                <img src="img/logo.svg" class="web-logo" alt="logo">
+            </a>
+            <button class="btn sidebarCollapse">
+                <img src="img/icons/ham_menu.svg" alt="ham_menu">
+            </button>
+        </div>
+        <div class="dashboard-header-right">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-6">
+                        <div class="srarch-box">
+                            <input type="text" class="form-control" placeholder="Search for anything…" />
+                            <div class="srarch-box-icon">
+                                <button class="btn">
+                                    <img src="img/icons/search.svg" alt="search " />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <div class="user-area">
+                            <div class="notification-header">
+                                <button class="btn">
+                                    <img src="img/icons/notification_bell.svg" alt="notification">
+                                    <span class="badge badge-secondary">6</span>
+                                </button>
+                            </div>
+                            <div class="user-header">
+                                <div class="user-img">
+
+
+                                </div>
+                                <div class="user-txt">
+                                    <div class="dropdown">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                                            <img src="img/user.jpg" alt="user">
+                                            <h4>Bradley Robin <span>Administrator</span></h4>
+
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="side-nav-wrapper">
+
+            <div class="side-navigation custom-scroll">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active">
+                            <figure>
+                                <img src="img/Sidenav_menu_icon/dashboard.svg" alt="dashboard" />
+                            </figure>
+                            <span class="indication">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <figure>
+                                <img src="img/Sidenav_menu_icon/user_management.svg" />
+                            </figure>
+                            <span class="indication">User management</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <figure>
+                                <img src="img/Sidenav_menu_icon/trainer_management.svg" />
+                            </figure>
+                            <span class="indication">Trainer Management</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <figure>
+                                <img src="img/Sidenav_menu_icon/league_management.svg" />
+                            </figure>
+                            <span class="indication">League Management</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <figure>
+                                <img src="img/Sidenav_menu_icon/league_admin_management.svg" />
+                            </figure>
+                            <span class="indication">League Admin Management</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <figure>
+                                <img src="img/Sidenav_menu_icon/court_creation.svg" />
+                            </figure>
+                            <span class="indication">Court Creation</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <figure>
+                                <img src="img/Sidenav_menu_icon/media_management.svg" />
+                            </figure>
+                            <span class="indication">Media management</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <figure>
+                                <img src="img/Sidenav_menu_icon/reports_and_summary.svg" />
+                            </figure>
+                            <span class="indication">Reports & Summary</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-footer">
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link active">
+                                <figure>
+                                    <img src="img/Sidenav_menu_icon/dashboard.svg" alt="dashboard" />
+                                </figure>
+                                <span class="indication">Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="dashboard-content custom-scroll">
+
+        </div>
+    </div>
+    <script src="Js/vendor/bootstrap.min.js"></script>
+</body>
+
+</html>

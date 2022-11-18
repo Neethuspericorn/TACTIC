@@ -1,0 +1,110 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.modal-alert .modal-content {
+  border-radius: 18px;
+  border: none; }
+  .modal-alert .modal-content .modal-header {
+    border: none; }
+    .modal-alert .modal-content .modal-header .btn-close {
+      background-image: url("../img/close_without_bg.svg");
+      width: 33px;
+      height: 33px;
+      background-color: #FBF2FF;
+      border-radius: 100px;
+      padding: 0;
+      background-size: 13px; }
+      .modal-alert .modal-content .modal-header .btn-close:focus {
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.027); }
+  .modal-alert .modal-content .modal-body .reset-password {
+    display: block;
+    margin: auto;
+    text-align: center; }
+    .modal-alert .modal-content .modal-body .reset-password h4 {
+      font-size: 22px;
+      font-family: 'sf-regular';
+      text-align: center;
+      color: #330948;
+      margin: 13px auto; }
+    .modal-alert .modal-content .modal-body .reset-password p {
+      font-family: 'sf-pro-light';
+      font-size: 14px;
+      text-align: center;
+      letter-spacing: 0.56px;
+      color: #946BAA;
+      max-width: 392px;
+      display: block;
+      margin: auto; }
+    .modal-alert .modal-content .modal-body .reset-password .btn-primary {
+      width: 143px;
+      height: 51px;
+      border-radius: 28px;
+      text-align: center;
+      font-family: 'sf-regular';
+      font-size: 18px;
+      color: #FFFFFF;
+      margin-top: 20px;
+      margin-bottom: 50px; }
+
+@media (max-width: 1441px) {
+  .modal-alert .reset-password-img {
+    width: 100px; }
+
+  .modal-alert .modal-content .modal-body .reset-password h4 {
+    font-size: 20px; }
+
+  .modal-alert .modal-content .modal-body .reset-password .btn-primary {
+    height: 44px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px; } }
+@media (max-width: 1367px) {
+  .modal-alert .modal-content .modal-header .btn-close {
+    width: 28px;
+    height: 28px;
+    background-size: 10px; } }
+@media (max-width: 1281px) {
+  .modal-alert .modal-content .modal-body .reset-password h4 {
+    font-size: 18px; }
+
+  .modal-alert .modal-content .modal-header .btn-close {
+    width: 24px;
+    height: 24px;
+    background-size: 9px; }
+
+  .modal-alert .reset-password-img {
+    width: 80px; }
+
+  .modal-alert .modal-content .modal-body .reset-password .btn-primary {
+    height: 40px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  .modal-alert .modal-content .modal-body .reset-password h4 {
+    font-size: 16px;
+    margin: 10px 0 8px; }
+
+  .modal-alert .reset-password-img {
+    width: 65px; }
+
+  .modal-alert .modal-content .modal-body .reset-password .btn-primary {
+    margin-top: 15px;
+    margin-bottom: 15px; } }
+
+/*# sourceMappingURL=modals.css.map */

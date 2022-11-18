@@ -1,0 +1,144 @@
+@import "partials/variables";
+@import "partials/mixins";
+
+.info-media-wrap{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    overflow: auto;
+    padding-bottom:10px;
+    .info-media-item{
+        width: 125px;
+        height: 118px;
+        flex: 0 0 125px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        .media-overlay{
+            inset: 0;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 21px;
+            &.videoThumb,
+            &.more{
+                background-color: rgba(0,0,0,0.5);
+            }
+        }
+        img, video{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .play{
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+        }
+    }
+}
+
+.review-content{
+    .review-txt{
+        color: #6D5A77;
+        font-style: italic;
+        font-family: 'sf-pro-light';
+        font-size: 12px;
+    }
+    .review-usr{
+        color: #5C2579;
+        font-size: 11px;
+        font-family: 'sf-regular';
+    }
+}
+
+.league{
+    .info-title{
+        &.entryFee{
+            margin-bottom: 5px;
+        }
+    }
+    .price{
+        small{
+            font-size: 14px;
+        }
+    }
+}
+.col-league{
+    padding-top: 30px;
+}
+
+.reviewModal{
+    .modal-header,
+    .modal-body{
+        padding-left: 70px;
+        padding-right: 40px;
+    }
+    .modal-body{
+        padding-top: 5px;
+    }
+    .modal-header{
+        padding-bottom: 5px;
+        .modal-title{
+            padding-top: 30px;
+            padding-bottom: 10px;
+            color: #330948;
+            font-family: 'sf-medium';
+            width: calc(100% - 70px);
+            border-bottom: 1px solid rgba(112,112,112,0.09);
+        }
+    } 
+    .reviews-content{
+        max-height: 520px;
+        overflow: auto;
+        font-size: 19px;
+    }
+
+    .review-item{
+        padding-bottom: 35px;
+        border-bottom: 1px solid rgba(112,112,112,0.09);
+        padding-top: 30px;
+        width: calc(100% - 70px);
+        .name{
+            color: #6D5A77;
+            font-size: 15px;
+            font-family: 'sf-medium';
+        }
+        
+        .revTxt{
+            padding-top: 12px;
+            font-size: 14px;
+            line-height: 1.643;
+            color: #6D5A77;
+            font-family: 'sf-pro-light';
+        }
+    }
+}
+
+.rating{
+    display: flex;
+    .stars{
+        display: flex;
+        gap: 5px;
+        margin-right: 10px;
+        img{
+            width: 13px;
+            object-fit: contain;
+        }
+    }
+    .rateVal{
+        font-size: 14px;
+        font-family: 'sf-medium';
+        color: #6D5A77;
+    }
+    .dated{
+        color: #C3B8C8;
+        font-size: 9px;
+        line-height: 2.83;
+        font-family: 'sf-pro-light';
+        margin-left: 6px;
+    }
+}

@@ -1,0 +1,457 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.authentication {
+  position: relative;
+  min-height: 100vh;
+  background: url("../img/authenticationBg.png");
+  background-size: cover;
+  padding: 30px 0; }
+  .authentication .authentication-row a.copyRight {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-family: "sf-pro-light";
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none; }
+  .authentication .authentication-row .authentication-txt-wrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 120px; }
+    .authentication .authentication-row .authentication-txt-wrapp .authentication-txt h5 {
+      text-align: left;
+      font-family: "sf-bold";
+      font-size: 36px;
+      color: #FFFFFF;
+      margin-bottom: 20px; }
+    .authentication .authentication-row .authentication-txt-wrapp .authentication-txt small {
+      text-align: left;
+      font-family: "sf-Regular";
+      color: #FFFFFF; }
+    .authentication .authentication-row .authentication-txt-wrapp .authentication-txt p {
+      text-align: left;
+      font-family: "sf-pro-light";
+      font-size: 17px;
+      color: #FFFFFF;
+      opacity: 0.82;
+      max-width: 550px; }
+  .authentication .authentication-row .authentication-form-wrapper {
+    padding-right: 0px;
+    background: #FFFFFF;
+    border-radius: 60px 0px 0px 60px;
+    min-height: 100%;
+    margin: auto;
+    padding: 110px;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center; }
+    .authentication .authentication-row .authentication-form-wrapper .authentication-form {
+      width: 100%; }
+      .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header {
+        margin-bottom: 43px; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header img {
+          margin-bottom: 34px; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header h4 {
+          font-size: 30px;
+          text-align: left;
+          color: #1E1B1E;
+          font-family: "sf-medium"; }
+          .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header h4 small {
+            color: #1E1B1E;
+            font-family: "sf-regular"; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header .forgot-txt {
+          font-family: "sf-regular";
+          font-size: 14px;
+          text-align: left;
+          color: #808080;
+          max-width: 340px;
+          margin-top: 20px; }
+      .authentication .authentication-row .authentication-form-wrapper .authentication-form .forgot-header h4 {
+        margin-top: 70px; }
+      .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box {
+        padding-bottom: 25px;
+        position: relative; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .mail-form-control,
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .pass-form-control {
+          padding-left: 70px;
+          background-position: 30px center;
+          background-size: 19px;
+          background-repeat: no-repeat; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .mail-form-control {
+          background-image: url("../img/mail.svg"); }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .pass-form-control {
+          background-image: url("../img/lock.svg"); }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box {
+          position: relative; }
+          .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box .password-view {
+            position: absolute;
+            top: 0;
+            right: 20px;
+            bottom: 0;
+            margin: auto;
+            height: 40px; }
+      .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .btn.btn-primary img {
+        width: 8px;
+        height: 15px;
+        margin-left: 22px; }
+      .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check {
+          display: flex;
+          align-items: center; }
+          .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check .form-check-input {
+            margin-left: -2.5em;
+            width: 26px;
+            height: 26px;
+            margin-right: 15px;
+            background-color: #FBF9FB;
+            border: 1px solid #D8D8D8; }
+            .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check .form-check-input:checked[type=checkbox] {
+              background-image: url("../img/check.svg");
+              background-size: 20px; }
+            .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check .form-check-input:focus {
+              box-shadow: none;
+              border: none; }
+          .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check label {
+            position: relative;
+            top: 5px;
+            font-family: "sf-regular";
+            font-size: 17px;
+            color: #1E1B1E; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .forgot {
+          font-family: "sf-regular";
+          font-size: 17px;
+          color: #5F2095;
+          text-decoration: none; }
+      .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .login-btn {
+        display: block;
+        margin: auto; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .login-btn .login-btn-link {
+          text-align: center;
+          font-family: "sf-regular";
+          font-size: 17px;
+          color: #5F2095;
+          text-decoration: none;
+          display: block;
+          margin: auto; }
+      .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
+        margin-top: 65px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0; }
+        .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a {
+          padding-right: 14px;
+          margin-right: 14px;
+          position: relative;
+          font-family: "sf-regular";
+          font-size: 14px;
+          text-align: left;
+          color: #5F2095;
+          text-decoration: none; }
+          .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a::after {
+            content: '';
+            display: block;
+            position: absolute;
+            right: 0;
+            width: 1px;
+            height: 30px;
+            background: #5F2095;
+            top: -5px; }
+          .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a:last-child::after {
+            background: transparent !important; }
+    .authentication .authentication-row .authentication-form-wrapper .authentication-forgot {
+      margin-bottom: 100px; }
+
+@media (max-width: 1679px) {
+  .authentication .authentication-row .authentication-txt-wrapp .authentication-txt h5 {
+    font-size: 32px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .forgot-header h4 {
+    margin-top: 69px; }
+
+  .authentication .authentication-row .authentication-form-wrapper {
+    border-radius: 50px 0px 0px 50px;
+    padding: 80px 90px;
+    height: calc(100vh - 60px); }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header img {
+    margin-bottom: 24px;
+    width: 146px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header {
+    margin-bottom: 35px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header h4 {
+    font-size: 26px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-control {
+    height: 60px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .btn.btn-primary {
+    height: 60px;
+    margin-bottom: 40px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check .form-check-input {
+    width: 23px;
+    height: 23px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a::after {
+    width: 1px;
+    height: 24px;
+    top: 0; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check label {
+    font-size: 16px;
+    top: 3px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .forgot {
+    font-size: 16px; } }
+@media (max-width: 1441px) {
+  .authentication .authentication-row .authentication-txt-wrapp .authentication-txt h5 {
+    font-size: 28px;
+    margin-bottom: 15px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .forgot-header h4 {
+    margin-top: 40px; }
+
+  .authentication .authentication-row .authentication-txt-wrapp .authentication-txt p {
+    font-size: 15px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header {
+    margin-bottom: 30px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header img {
+    margin-bottom: 20px;
+    width: 140px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-control {
+    height: 50px;
+    padding-left: 60px;
+    background-position: 25px center;
+    background-size: 14px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box .password-view img {
+    width: 20px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .btn.btn-primary {
+    height: 50px;
+    margin-bottom: 30px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
+    margin-top: 20px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check .form-check-input {
+    width: 20px;
+    height: 20px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check .form-check-input:checked[type=checkbox] {
+    background-size: 16px; } }
+@media (max-width: 1367px) {
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header h4 {
+    font-size: 24px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .btn.btn-primary {
+    margin-bottom: 20px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
+    margin-top: 0px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header .forgot-txt {
+    margin-top: 10px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header img {
+    margin-bottom: 15px;
+    width: 130px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header {
+    margin-bottom: 25px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-label {
+    font-size: 15px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-control {
+    height: 46px;
+    padding-left: 60px;
+    background-position: 25px center;
+    background-size: 14px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-control {
+    height: 46px;
+    padding-left: 50px;
+    background-position: 20px center;
+    background-size: 13px;
+    font-size: 14px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check label {
+    font-size: 14px;
+    top: 2px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .forgot {
+    font-size: 14px; }
+
+  .authentication .authentication-row .authentication-form-wrapper {
+    padding: 55px 70px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box {
+    padding-left: 20px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box .password-view img {
+    width: 16px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .login-btn .login-btn-link {
+    font-size: 15px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .forgot-header h4 {
+    margin-top: 49px; } }
+@media (max-width: 1281px) {
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header {
+    margin-bottom: 20px; }
+
+  .authentication .authentication-row .authentication-form-wrapper {
+    padding: 30px 50px; }
+
+  .authentication .authentication-row .authentication-txt-wrapp .authentication-txt h5 {
+    font-size: 24px;
+    margin-bottom: 10px; }
+
+  .authentication .authentication-row .authentication-txt-wrapp .authentication-txt p {
+    font-size: 14px;
+    max-width: 500px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header img {
+    width: 120px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header h4 {
+    font-size: 22px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-label {
+    font-size: 14px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .form-control {
+    height: 44px;
+    padding-left: 40px;
+    background-position: 16px center;
+    background-size: 13px;
+    font-size: 14px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .btn.btn-primary {
+    height: 44px;
+    margin-bottom: 25px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
+    margin-top: 15px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a::after {
+    width: 1px;
+    height: 18px;
+    top: 2px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box .password-view img {
+    width: 14px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .btn.btn-primary img {
+    margin-left: 10px; } }
+@media (max-width: 1023px) {
+  .authentication .authentication-row .authentication-txt-wrapp .authentication-txt h5 {
+    font-size: 20px;
+    margin-bottom: 10px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a {
+    padding-right: 8px;
+    margin-right: 8px;
+    font-size: 12px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header .forgot-txt {
+    margin-top: 0px; }
+
+  .authentication .authentication-row .authentication-txt-wrapp {
+    padding-bottom: 80px; }
+
+  .authentication .authentication-row a.copyRight {
+    font-size: 14px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .forgot-header h4 {
+    margin-top: 44px; } }
+@media (max-width: 991px) {
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .forgot-header h4 {
+    margin-top: 47px; }
+
+  .authentication .authentication-row .authentication-txt-wrapp {
+    align-items: flex-start; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .login-btn .login-btn-link {
+    font-size: 13px; }
+
+  .authentication .authentication-row .authentication-form-wrapper {
+    border-radius: 40px 0px 0px 40px; }
+
+  .authentication .authentication-row .authentication-txt-wrapp {
+    padding-bottom: 50px; } }
+@media (max-width: 767px) {
+  .authentication .authentication-row .authentication-form-wrapper {
+    height: 100% !important; }
+
+  .authentication-row .pr-0 {
+    padding-right: 12px; }
+
+  .authentication .authentication-row .authentication-txt-wrapp {
+    padding-bottom: 30px; }
+
+  .authentication .authentication-row .authentication-form-wrapper {
+    border-radius: 40px; }
+
+  .authentication .authentication-row a.copyRight {
+    font-size: 14px;
+    position: absolute;
+    bottom: 11px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    left: 0; }
+
+  .authentication-row {
+    padding-bottom: 20px; } }
+@media (max-width: 479px) {
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
+    flex-direction: column; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a {
+    text-align: center; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a::after {
+    background: transparent;
+    margin: 0;
+    padding: 0; } }
+
+/*# sourceMappingURL=login.css.map */

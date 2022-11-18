@@ -1,0 +1,166 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.side-nav-wrapper {
+  min-width: 343px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000007;
+  border-radius: 0px 0px 78px 0px;
+  transition: all .3s ease-in-out; }
+  .side-nav-wrapper.isactive {
+    min-width: 70px;
+    border-radius: 0px 0px 38px 0px; }
+    .side-nav-wrapper.isactive .side-navigation {
+      margin-top: 60px;
+      transition: all .3s ease-in-out; }
+      .side-nav-wrapper.isactive .side-navigation .nav-item {
+        padding-right: 10px;
+        transition: all .3s ease-in-out; }
+        .side-nav-wrapper.isactive .side-navigation .nav-item .nav-link {
+          padding: 7px 0 7px 15px;
+          transition: all .3s ease-in-out; }
+          .side-nav-wrapper.isactive .side-navigation .nav-item .nav-link .indication {
+            display: none;
+            transition: all .3s ease-in-out; }
+  .side-nav-wrapper .side-navigation {
+    margin-top: 60px;
+    height: calc(100vh - 140px);
+    overflow: auto;
+    position: relative; }
+    .side-nav-wrapper .side-navigation .nav-item {
+      padding-right: 22px; }
+      .side-nav-wrapper .side-navigation .nav-item .nav-link {
+        display: flex;
+        align-items: center;
+        border-radius: 0px 14px 14px 0px;
+        padding: 12px 0 12px 35px;
+        margin-bottom: 5px;
+        transition: all 0.5 ease-in-out;
+        cursor: pointer; }
+        .side-nav-wrapper .side-navigation .nav-item .nav-link.active {
+          background: #FAF1FF; }
+        .side-nav-wrapper .side-navigation .nav-item .nav-link:hover {
+          background: #FAF1FF; }
+        .side-nav-wrapper .side-navigation .nav-item .nav-link figure {
+          margin: 0 !important;
+          background: #E3C9F1;
+          border-radius: 100px;
+          width: 34px;
+          height: 34px; }
+          .side-nav-wrapper .side-navigation .nav-item .nav-link figure img {
+            padding: 10px;
+            display: block;
+            margin: auto; }
+        .side-nav-wrapper .side-navigation .nav-item .nav-link .indication {
+          font-family: "sf-regular";
+          font-size: 16px;
+          text-align: left;
+          color: #6F109E;
+          padding-left: 14px; }
+    .side-nav-wrapper .side-navigation .nav-footer {
+      position: absolute;
+      bottom: 50px;
+      width: 100%; }
+
+@media (max-width: 1679px) {
+  .side-nav-wrapper {
+    min-width: 320px; }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link {
+    padding: 10px 0 10px 30px; }
+
+  .side-nav-wrapper .side-navigation .nav-item {
+    padding-right: 20px; }
+
+  .side-nav-wrapper .side-navigation {
+    margin-top: 40px; }
+
+  .side-nav-wrapper .side-navigation .nav-footer {
+    bottom: 30px; } }
+@media (max-width: 1441px) {
+  .side-nav-wrapper .side-navigation {
+    margin-top: 30px; } }
+@media (max-width: 1367px) {
+  .side-nav-wrapper .side-navigation {
+    height: calc(100vh - 120px); }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link .indication {
+    font-size: 14px; }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link figure {
+    width: 30px;
+    height: 30px; }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link figure img {
+    padding: 8px; }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link {
+    padding: 7px 0 7px 25px; }
+
+  .side-nav-wrapper {
+    min-width: 295px; }
+
+  .side-nav-wrapper {
+    border-radius: 0px 0px 58px 0px; } }
+@media (max-width: 1281px) {
+  .side-nav-wrapper {
+    min-width: 275px; }
+
+  .side-nav-wrapper .side-navigation {
+    margin-top: 20px; }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link .indication {
+    padding-left: 10px; }
+
+  .side-nav-wrapper .side-navigation {
+    height: calc(100vh - 80px); }
+
+  .side-nav-wrapper {
+    border-radius: 0px 0px 48px 0px; } }
+@media (max-width: 1023px) {
+  .side-nav-wrapper .side-navigation .nav-item .nav-link .indication {
+    font-size: 12px; }
+
+  .side-nav-wrapper {
+    min-width: 245px; }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link figure {
+    width: 26px;
+    height: 26px; }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link {
+    padding: 7px 0 7px 15px; }
+
+  .side-nav-wrapper {
+    border-radius: 0px 0px 38px 0px; }
+
+  .side-nav-wrapper .side-navigation .nav-footer {
+    bottom: 0;
+    position: relative; } }
+@media (max-width: 767px) {
+  .side-nav-wrapper {
+    min-width: 70px; }
+
+  .side-nav-wrapper .side-navigation .nav-item .nav-link .indication {
+    display: none; }
+
+  .side-nav-wrapper.isactive .side-navigation .nav-item {
+    padding-right: 10px; } }
+
+/*# sourceMappingURL=side-nav.css.map */

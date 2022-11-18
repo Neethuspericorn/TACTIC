@@ -1,0 +1,116 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.no-data-wrp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  height: calc(100vh - 185px);
+  background-color: white;
+  border-radius: 20px; }
+  @media (max-width: 1367px) {
+    .no-data-wrp {
+      height: calc(100vh - 155px); } }
+  .no-data-wrp .nodata-content-wrp {
+    max-width: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .no-data-wrp .nodata-content-wrp .no-data-pic {
+      margin-bottom: 21px;
+      display: flex;
+      justify-content: center; }
+      .no-data-wrp .nodata-content-wrp .no-data-pic img {
+        transition: linear 0.5s; }
+        @media (max-width: 1441px) {
+          .no-data-wrp .nodata-content-wrp .no-data-pic img {
+            max-width: 85%; } }
+        @media (max-width: 991px) {
+          .no-data-wrp .nodata-content-wrp .no-data-pic img {
+            max-width: 68%; } }
+        @media (max-width: 479px) {
+          .no-data-wrp .nodata-content-wrp .no-data-pic img {
+            max-width: 70%; } }
+    .no-data-wrp .nodata-content-wrp .title {
+      font: normal normal 600 22px/26px sf-medium;
+      color: #330948;
+      margin-bottom: 21px; }
+      @media (max-width: 1679px) {
+        .no-data-wrp .nodata-content-wrp .title {
+          font: normal normal 600 20px/24px sf-medium;
+          margin-bottom: 15px; } }
+      @media (max-width: 991px) {
+        .no-data-wrp .nodata-content-wrp .title {
+          font: normal normal 600 18px/24px sf-medium; } }
+      @media (max-width: 479px) {
+        .no-data-wrp .nodata-content-wrp .title {
+          font: normal normal 600 14px/24px sf-medium;
+          margin-bottom: 5px; } }
+    .no-data-wrp .nodata-content-wrp .err-content {
+      font: normal normal 300 15px/22px sf-pro-light;
+      letter-spacing: 0.6px;
+      color: #6D5A77;
+      text-align: center;
+      padding: 0 10px;
+      margin-bottom: 35px; }
+      @media (max-width: 1679px) {
+        .no-data-wrp .nodata-content-wrp .err-content {
+          font: normal normal 300 14px/20px sf-pro-light;
+          margin-bottom: 25px; } }
+      @media (max-width: 1199px) {
+        .no-data-wrp .nodata-content-wrp .err-content {
+          font: normal normal 300 13px/20px sf-pro-light;
+          margin-bottom: 20px; } }
+      @media (max-width: 479px) {
+        .no-data-wrp .nodata-content-wrp .err-content {
+          font: normal normal 300 12px/20px sf-pro-light;
+          margin-bottom: 15px; } }
+
+.btn.btn-light.back {
+  background-color: #F5EDFF;
+  border-color: #F5EDFF;
+  color: #5E2096;
+  padding: 0.9375rem 4.375rem;
+  font: normal normal 600 16px/19px sf-medium;
+  border-radius: 38px; }
+  @media (max-width: 1679px) {
+    .btn.btn-light.back {
+      padding: 0.7375rem 2.375rem;
+      font: normal normal 600 14px/18px sf-medium; } }
+  @media (max-width: 1441px) {
+    .btn.btn-light.back {
+      padding: 0.7375rem 2.375rem;
+      font: normal normal 600 14px/18px sf-medium; } }
+  @media (max-width: 1199px) {
+    .btn.btn-light.back {
+      padding: 0.575rem 2.375rem; } }
+  @media (max-width: 991px) {
+    .btn.btn-light.back {
+      font: normal normal 600 13px/18px sf-medium;
+      padding: 0.575rem 2.375rem; } }
+  @media (max-width: 479px) {
+    .btn.btn-light.back {
+      padding: 7px 30px;
+      font-size: 12px; } }
+
+/*# sourceMappingURL=no-data.css.map */

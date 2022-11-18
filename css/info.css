@@ -1,0 +1,270 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.dashboard-info {
+  padding: 30px 60px 100px 35px; }
+  @media screen and (max-width: 1679px) {
+    .dashboard-info {
+      padding: 30px 30px 80px 30px; } }
+  @media screen and (max-width: 1440px) {
+    .dashboard-info {
+      padding: 20px 20px 60px 20px; } }
+
+@media screen and (min-width: 1680px) {
+  .col-profile-pic {
+    max-width: 230px; } }
+@media screen and (max-width: 1679px) {
+  .col-profile-pic {
+    max-width: 200px; } }
+@media screen and (max-width: 1199px) {
+  .col-profile-pic {
+    padding-top: 15px; } }
+@media screen and (max-width: 1024px) {
+  .col-profile-pic {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0; } }
+@media screen and (max-width: 992px) {
+  .col-profile-pic {
+    max-width: 100%;
+    flex: 0 0 100%; } }
+.col-profile-pic .profile-info {
+  padding-top: 45px; }
+  @media screen and (max-width: 1679px) {
+    .col-profile-pic .profile-info {
+      padding-top: 30px; } }
+  @media screen and (max-width: 1199px) {
+    .col-profile-pic .profile-info {
+      padding-top: 18px; } }
+  @media screen and (max-width: 1024px) {
+    .col-profile-pic .profile-info {
+      padding-top: 15px; } }
+  .col-profile-pic .profile-info .info-title {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end; }
+    @media screen and (max-width: 1199px) {
+      .col-profile-pic .profile-info .info-title {
+        margin-bottom: 15px; } }
+    @media screen and (max-width: 1024px) {
+      .col-profile-pic .profile-info .info-title {
+        margin-bottom: 10px; } }
+    .col-profile-pic .profile-info .info-title:after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      border-bottom: 1px solid rgba(112, 112, 112, 0.17);
+      margin-bottom: 5px;
+      margin-left: 10px; }
+@media screen and (min-width: 993px) {
+  .col-profile-pic.league {
+    max-width: 200px; } }
+.col-profile-pic.league .profile-pic {
+  width: 167px;
+  height: 214px; }
+  @media screen and (max-width: 1679px) {
+    .col-profile-pic.league .profile-pic {
+      width: 140px;
+      height: 180px; } }
+  .col-profile-pic.league .profile-pic .profile-img {
+    border-radius: 10px;
+    border: none; }
+@media screen and (min-width: 993px) {
+  .col-profile-pic.league + .col-info-content {
+    max-width: calc(100% - 200px); } }
+
+.profile-pic {
+  width: 190px;
+  height: 190px; }
+  @media screen and (max-width: 1679px) {
+    .profile-pic {
+      width: 180px;
+      height: 180px; } }
+  @media screen and (max-width: 1199px) {
+    .profile-pic {
+      width: 140px;
+      height: 140px; } }
+  @media screen and (max-width: 992px) {
+    .profile-pic {
+      display: none; } }
+  @media screen and (max-width: 576px) {
+    .profile-pic {
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto; } }
+  .profile-pic .profile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 8px solid #ECDFF2; }
+    @media screen and (max-width: 1440px) {
+      .profile-pic .profile-img {
+        border: 5px solid #ECDFF2; } }
+
+.info-content {
+  padding: 55px 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  min-height: calc(100vh - 220px); }
+  .info-content.league-admin {
+    min-height: 360px;
+    padding-top: 50px; }
+    @media screen and (min-width: 1440px) {
+      .info-content.league-admin {
+        min-height: 400px;
+        padding-top: 60px; } }
+    @media screen and (min-width: 1679px) {
+      .info-content.league-admin {
+        min-height: 538px;
+        padding-top: 70px; } }
+  .info-content.my-account {
+    padding-top: 50px;
+    min-height: 280px; }
+    @media screen and (min-width: 1440px) {
+      .info-content.my-account {
+        padding-top: 60px;
+        min-height: 320px; } }
+    @media screen and (min-width: 1679px) {
+      .info-content.my-account {
+        padding-top: 70px;
+        min-height: 377px; } }
+  @media screen and (max-width: 1679px) {
+    .info-content {
+      padding: 35px 30px; } }
+  @media screen and (max-width: 1440px) {
+    .info-content {
+      padding: 30px; } }
+  @media screen and (max-width: 576px) {
+    .info-content {
+      padding: 30px 15px; } }
+  @media screen and (max-width: 992px) {
+    .info-content .content-row {
+      flex-wrap: wrap-reverse; } }
+  .info-content .action-btn-wrap {
+    position: absolute;
+    top: 44px;
+    right: 47px;
+    display: flex;
+    align-items: center;
+    gap: 5px; }
+    @media screen and (max-width: 1679px) {
+      .info-content .action-btn-wrap {
+        top: 30px;
+        right: 30px; } }
+    @media screen and (max-width: 1440px) {
+      .info-content .action-btn-wrap {
+        top: 20px;
+        right: 20px; } }
+    @media screen and (max-width: 576px) {
+      .info-content .action-btn-wrap {
+        top: 15px;
+        right: 15px; } }
+    .info-content .action-btn-wrap span {
+      font: normal normal normal 13px/15px 'sf-regular'; }
+      @media screen and (max-width: 576px) {
+        .info-content .action-btn-wrap span {
+          display: none; } }
+  .info-content .btn-delete {
+    background-color: #F5EDFF;
+    font-size: 10px;
+    color: #6F109E;
+    display: flex;
+    align-items: center; }
+    .info-content .btn-delete img {
+      margin-right: 7px; }
+  .info-content .col-info-content {
+    padding-left: 80px;
+    padding-right: 100px; }
+    @media screen and (max-width: 1679px) {
+      .info-content .col-info-content {
+        padding-left: 50px;
+        padding-right: 50px; } }
+    @media screen and (max-width: 1440px) {
+      .info-content .col-info-content {
+        padding-left: 40px;
+        padding-right: 30px;
+        padding-top: 20px; } }
+    @media screen and (max-width: 1200px) {
+      .info-content .col-info-content {
+        padding-top: 15px; } }
+    @media screen and (max-width: 1024px) {
+      .info-content .col-info-content {
+        padding-left: 15px;
+        padding-right: 15px; } }
+  .info-content .info-content-details {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.17); }
+    .info-content .info-content-details:last-child {
+      border-bottom: none; }
+    @media screen and (max-width: 1679px) {
+      .info-content .info-content-details {
+        padding-top: 30px; } }
+    @media screen and (max-width: 1440px) {
+      .info-content .info-content-details {
+        padding-top: 20px; } }
+    .info-content .info-content-details .profile-pic {
+      display: none; }
+      @media screen and (max-width: 992px) {
+        .info-content .info-content-details .profile-pic {
+          display: block; } }
+      .info-content .info-content-details .profile-pic .profile-img {
+        width: 114px;
+        height: 114px; }
+      .info-content .info-content-details .profile-pic.league {
+        height: 180px; }
+        .info-content .info-content-details .profile-pic.league .profile-img {
+          height: 160px;
+          border: none;
+          border-radius: 10px; }
+  .info-content .info-item {
+    padding-bottom: 50px; }
+    @media screen and (max-width: 1679px) {
+      .info-content .info-item {
+        padding-bottom: 40px; } }
+    @media screen and (max-width: 1679px) {
+      .info-content .info-item {
+        padding-bottom: 35px; } }
+    @media screen and (max-width: 1024px) {
+      .info-content .info-item {
+        padding-bottom: 20px; } }
+  .info-content .info-title {
+    font-size: 14px;
+    color: #6F109E;
+    font-family: 'sf-medium'; }
+    @media screen and (max-width: 1200px) {
+      .info-content .info-title {
+        margin-bottom: 4px;
+        font-size: 14px; } }
+  .info-content .info-detail {
+    color: #6D5A77;
+    font-size: 14px;
+    font-family: 'sf-medium'; }
+    @media screen and (max-width: 1440px) {
+      .info-content .info-detail {
+        font-size: 13px; } }
+    .info-content .info-detail .price {
+      color: #661A98;
+      font-size: 21px;
+      line-height: 1;
+      font-family: 'sf-medium'; }
+
+/*# sourceMappingURL=info.css.map */

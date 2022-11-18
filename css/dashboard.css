@@ -1,0 +1,102 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.dashboard-content .custom-card-wapper {
+  padding-right: 10px; }
+  .dashboard-content .custom-card-wapper .custom-card-list {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 34px 25px;
+    display: flex; }
+    .dashboard-content .custom-card-wapper .custom-card-list .custom-card-icon-box {
+      margin-right: 12px; }
+      .dashboard-content .custom-card-wapper .custom-card-list .custom-card-icon-box .custom-card-icon {
+        width: 57px; }
+    .dashboard-content .custom-card-wapper .custom-card-list .card-list-count {
+      font-family: 'sf-bold';
+      font-size: 29px;
+      color: #330948;
+      text-align: left;
+      margin-bottom: 5px; }
+    .dashboard-content .custom-card-wapper .custom-card-list .card-list-count-description {
+      font-family: 'sf-medium';
+      font-size: 15px;
+      text-align: left;
+      color: #330948;
+      line-height: 18px; }
+.dashboard-content .cart-card-bg {
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 20px;
+  min-height: 499px; }
+
+@media (max-width: 1679px) {
+  .dashboard-content .custom-card-wapper .custom-card-list .custom-card-icon-box {
+    margin-right: 8px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list {
+    padding: 34px 22px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list {
+    padding: 25px 21px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list .card-list-count-description {
+    font-size: 12px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list .card-list-count {
+    font-size: 25px;
+    margin: 0; } }
+@media (max-width: 1441px) {
+  .dashboard-content .custom-card-wapper .custom-card-list {
+    padding: 20px 18px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list .custom-card-icon-box {
+    margin-right: 5px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list .custom-card-icon-box .custom-card-icon {
+    width: 44px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list .card-list-count {
+    font-size: 22px; } }
+@media (max-width: 1281px) {
+  .dashboard-content .custom-card-wapper .custom-card-list {
+    padding: 20px 15px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list .custom-card-icon-box .custom-card-icon-box {
+    width: 40px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list .card-list-count {
+    font-size: 18px; } }
+@media (max-width: 1023px) {
+  .dashboard-content .custom-card-wapper .custom-card-list .card-list-count {
+    font-size: 16px; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list {
+    padding: 15px 10px; } }
+@media (max-width: 991px) {
+  .dashboard-content .custom-card-wapper .custom-card-list {
+    margin-bottom: 15px; } }
+@media (max-width: 479px) {
+  .dashboard-content .custom-card-wapper .custom-card-list {
+    display: block; }
+
+  .dashboard-content .custom-card-wapper .custom-card-list .custom-card-icon-box {
+    margin-bottom: 8px; } }
+
+/*# sourceMappingURL=dashboard.css.map */

@@ -1,0 +1,130 @@
+@import "partials/variables";
+@import "partials/mixins";
+
+
+.no-data-wrp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    height: calc(100vh - 185px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+
+    @media ($sm-1367) {
+        height: calc(100vh - 155px);
+    }
+
+    .nodata-content-wrp {
+        max-width: 373px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .no-data-pic {
+            margin-bottom: 21px;
+            display: flex;
+            justify-content: center;
+
+            img {
+                transition: linear 0.5s;
+
+                @media ($sm-1441) {
+                    max-width: 85%;
+                }
+
+                @media ($sm-991) {
+                    max-width: 68%;
+                }
+
+                @media ($sm-479) {
+                    max-width: 70%;
+                }
+            }
+        }
+
+        .title {
+            font: normal normal 600 22px/26px sf-medium;
+            color: #330948;
+            margin-bottom: 21px;
+
+            @media ($sm-1679) {
+                font: normal normal 600 20px/24px sf-medium;
+                margin-bottom: 15px;
+            }
+
+            @media ($sm-991) {
+                font: normal normal 600 18px/24px sf-medium;
+            }
+
+            @media ($sm-479) {
+                font: normal normal 600 14px/24px sf-medium;
+                margin-bottom: 5px;
+            }
+        }
+
+        .err-content {
+            font: normal normal 300 15px/22px sf-pro-light;
+            letter-spacing: 0.6px;
+            color: #6D5A77;
+            text-align: center;
+            padding: 0 10px;
+            margin-bottom: 35px;
+
+            @media ($sm-1679) {
+                font: normal normal 300 14px/20px sf-pro-light;
+                margin-bottom: 25px;
+            }
+
+            @media ($sm-1199) {
+                font: normal normal 300 13px/20px sf-pro-light;
+                margin-bottom: 20px;
+            }
+
+            @media ($sm-479) {
+                font: normal normal 300 12px/20px sf-pro-light;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+.btn {
+    &.btn-light {
+        &.back {
+            background-color: #F5EDFF;
+            border-color: #F5EDFF;
+            color: #5E2096;
+            padding: 0.9375rem 4.375rem;
+            font: normal normal 600 16px/19px sf-medium;
+            border-radius: 38px;
+
+            @media ($sm-1679) {
+                padding: 0.7375rem 2.375rem;
+                font: normal normal 600 14px/18px sf-medium;
+            }
+
+            @media ($sm-1441) {
+                padding: 0.7375rem 2.375rem;
+                font: normal normal 600 14px/18px sf-medium;
+            }
+
+            @media ($sm-1199) {
+                padding: 0.575rem 2.375rem;
+            }
+
+            @media ($sm-991) {
+                font: normal normal 600 13px/18px sf-medium;
+                padding: 0.575rem 2.375rem;
+            }
+
+            @media ($sm-479) {
+                padding: 7px 30px;
+                font-size: 12px;
+            }
+        }
+    }
+}
