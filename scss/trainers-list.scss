@@ -239,6 +239,10 @@ $sm-579 	: "max-width: 579px";
             padding-left: 80px !important;
             text-align: left;
         }
+        &.user-email-title{
+            text-align: left;
+            text-indent: 30px;
+        }
     }
     td{
         font-family: 'sf-regular';

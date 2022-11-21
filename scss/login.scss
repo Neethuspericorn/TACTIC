@@ -28,6 +28,7 @@
             padding-bottom: 120px;
 
             .authentication-txt {
+                padding-left: 45px;
                 h5 {
                     text-align: left;
                     font-family: "sf-bold";
@@ -362,6 +363,9 @@
 }
 
 @media ($sm-1367) {
+    .authentication .authentication-row .authentication-txt-wrapp .authentication-txt{
+        padding-left: 35px;
+    }
     .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header h4 {
         font-size: 24px;
     }
@@ -417,8 +421,11 @@
 
     .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box {
         padding-left: 20px;
+        padding-bottom: 15px;
     }
-
+    .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer{
+        margin: 0 !important;
+    }
     .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box .password-view img {
         width: 16px;
     }
@@ -479,9 +486,7 @@
         margin-bottom: 25px;
     }
 
-    .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
-        margin-top: 15px;
-    }
+
 
     .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a::after {
         width: 1px;

@@ -38,23 +38,25 @@
     align-items: center;
     height: 100%;
     padding-bottom: 120px; }
-    .authentication .authentication-row .authentication-txt-wrapp .authentication-txt h5 {
-      text-align: left;
-      font-family: "sf-bold";
-      font-size: 36px;
-      color: #FFFFFF;
-      margin-bottom: 20px; }
-    .authentication .authentication-row .authentication-txt-wrapp .authentication-txt small {
-      text-align: left;
-      font-family: "sf-Regular";
-      color: #FFFFFF; }
-    .authentication .authentication-row .authentication-txt-wrapp .authentication-txt p {
-      text-align: left;
-      font-family: "sf-pro-light";
-      font-size: 17px;
-      color: #FFFFFF;
-      opacity: 0.82;
-      max-width: 550px; }
+    .authentication .authentication-row .authentication-txt-wrapp .authentication-txt {
+      padding-left: 45px; }
+      .authentication .authentication-row .authentication-txt-wrapp .authentication-txt h5 {
+        text-align: left;
+        font-family: "sf-bold";
+        font-size: 36px;
+        color: #FFFFFF;
+        margin-bottom: 20px; }
+      .authentication .authentication-row .authentication-txt-wrapp .authentication-txt small {
+        text-align: left;
+        font-family: "sf-Regular";
+        color: #FFFFFF; }
+      .authentication .authentication-row .authentication-txt-wrapp .authentication-txt p {
+        text-align: left;
+        font-family: "sf-pro-light";
+        font-size: 17px;
+        color: #FFFFFF;
+        opacity: 0.82;
+        max-width: 550px; }
   .authentication .authentication-row .authentication-form-wrapper {
     padding-right: 0px;
     background: #FFFFFF;
@@ -278,6 +280,9 @@
   .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box .form-check .form-check-input:checked[type=checkbox] {
     background-size: 16px; } }
 @media (max-width: 1367px) {
+  .authentication .authentication-row .authentication-txt-wrapp .authentication-txt {
+    padding-left: 35px; }
+
   .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-header h4 {
     font-size: 24px; }
 
@@ -324,7 +329,11 @@
     padding: 55px 70px; }
 
   .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-check-box {
-    padding-left: 20px; }
+    padding-left: 20px;
+    padding-bottom: 15px; }
+
+  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
+    margin: 0 !important; }
 
   .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .form-box .password-view-box .password-view img {
     width: 16px; }
@@ -374,9 +383,6 @@
   .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-body .btn.btn-primary {
     height: 44px;
     margin-bottom: 25px; }
-
-  .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer {
-    margin-top: 15px; }
 
   .authentication .authentication-row .authentication-form-wrapper .authentication-form .authentication-form-footer a::after {
     width: 1px;

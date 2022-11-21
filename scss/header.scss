@@ -13,14 +13,21 @@
         align-items: center;
         min-width: 326px;
         padding-right: 23px;
+        transition: all 0.3s ease-in-out;
 
         .logo {
+            transition: all 0.3s ease-in-out;
+
             .mob-logo {
                 display: none;
+                opacity: 0;
+                transition: all 0.3s ease-in-out;
             }
 
             img.web-logo {
                 display: block;
+                opacity: 1;
+                transition: all 0.3s ease-in-out;
             }
         }
 
@@ -31,11 +38,21 @@
                 .mob-logo {
                     display: block;
                     width: 30px;
+                    opacity: 1;
+                    transition: all 0.5s ease-in-out;
                 }
 
                 img.web-logo {
                     display: none;
+                    opacity: 0;
+                    transition: all 0.5s ease-in-out;
                 }
+            }
+            .sidebarCollapse {
+                width: 37px;
+                height: 37px;
+                background: #ECDFF2;
+                border-radius: 100px;
             }
 
         }
@@ -54,11 +71,12 @@
 
         .header-section {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
 
             .search-box {
                 position: relative;
                 width: 410px;
+                display: none;
 
                 .form-control {
                     background: #FAFAFB;
@@ -542,28 +560,34 @@
         transform: translate(30px, 70px) !important;
     }
 }
+
 @media ($sm-520) {
     .dashboard-header .dashboard-header-right .header-section .user-area .notification-header .dropdown-menu {
         transform: translate(60px, 70px) !important;
         width: 320px !important;
     }
+
     .dashboard-header .dashboard-header-right .header-section .user-area .notification-header .dropdown-menu .notification-body ul li .dropdown-item .list .userIcon {
         width: 80px;
     }
+
     .dashboard-header .side-nav-header .logo .mob-logo {
         display: block;
         width: 30px;
     }
 }
+
 @media ($sm-479) {
     .dashboard-header .side-nav-header {
         min-width: 100px;
     }
+
     .dashboard-header .side-nav-header .sidebarCollapse img {
         position: relative;
         top: 0px;
         max-width: 10px;
     }
+
     .dashboard-header .side-nav-header .sidebarCollapse {
         width: 26px;
         height: 26px;

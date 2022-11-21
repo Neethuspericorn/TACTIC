@@ -27,18 +27,34 @@
     justify-content: space-between;
     align-items: center;
     min-width: 326px;
-    padding-right: 23px; }
-    .dashboard-header .side-nav-header .logo .mob-logo {
-      display: none; }
-    .dashboard-header .side-nav-header .logo img.web-logo {
-      display: block; }
+    padding-right: 23px;
+    transition: all 0.3s ease-in-out; }
+    .dashboard-header .side-nav-header .logo {
+      transition: all 0.3s ease-in-out; }
+      .dashboard-header .side-nav-header .logo .mob-logo {
+        display: none;
+        opacity: 0;
+        transition: all 0.3s ease-in-out; }
+      .dashboard-header .side-nav-header .logo img.web-logo {
+        display: block;
+        opacity: 1;
+        transition: all 0.3s ease-in-out; }
     .dashboard-header .side-nav-header.isactive {
       min-width: 110px; }
       .dashboard-header .side-nav-header.isactive .logo .mob-logo {
         display: block;
-        width: 30px; }
+        width: 30px;
+        opacity: 1;
+        transition: all 0.5s ease-in-out; }
       .dashboard-header .side-nav-header.isactive .logo img.web-logo {
-        display: none; }
+        display: none;
+        opacity: 0;
+        transition: all 0.5s ease-in-out; }
+      .dashboard-header .side-nav-header.isactive .sidebarCollapse {
+        width: 37px;
+        height: 37px;
+        background: #ECDFF2;
+        border-radius: 100px; }
     .dashboard-header .side-nav-header .sidebarCollapse {
       width: 47px;
       height: 47px;
@@ -48,10 +64,11 @@
     flex: 1 1 100%; }
     .dashboard-header .dashboard-header-right .header-section {
       display: flex;
-      justify-content: space-between; }
+      justify-content: flex-end; }
       .dashboard-header .dashboard-header-right .header-section .search-box {
         position: relative;
-        width: 410px; }
+        width: 410px;
+        display: none; }
         .dashboard-header .dashboard-header-right .header-section .search-box .form-control {
           background: #FAFAFB;
           border: 1px solid #FAFAFB;
