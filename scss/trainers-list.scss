@@ -21,28 +21,6 @@ $sm-579 	: "max-width: 579px";
     }
   
 }
-.dashboard-content{
-    max-width: calc(100% - 343px);
-    background-color: #F7F4F9;
-    @media ($sm-1679) {
-        max-width: calc(100% - 320px);
-    }
-    @media ($sm-1367) {
-        max-width: calc(100% - 295px);
-    }
-    @media ($sm-1281) {
-        max-width: calc(100% - 275px);
-    }
-    @media ($sm-1023) {
-        max-width: calc(100% - 245px);
-    }
-    @media ($sm-767) {
-        max-width: calc(100% - 80px);
-    }
-    &.isactive {
-        max-width: calc(100% - 110px);
-    }
-}
 .db-content-inner{
     padding: 25px;
 }
@@ -239,9 +217,21 @@ $sm-579 	: "max-width: 579px";
             padding-left: 80px !important;
             text-align: left;
         }
-        &.user-email-title{
+        
+        &.user-title-left{
             text-align: left;
             text-indent: 30px;
+        }
+        
+        &.action-padding {
+            padding-right: 40px;
+        @media (max-width: 1679px){
+            padding-right: 30px;
+        }
+        
+        @media (max-width: 1480px){
+            padding-right: 20px;
+        }
         }
     }
     td{

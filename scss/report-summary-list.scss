@@ -1,8 +1,9 @@
 @import "partials/variables";
 @import "partials/mixins";
 $primary-clr: #6F109E;
-$sm-1250 	: "max-width: 1250px";
-$sm-400 	: "max-width: 400px";
+$sm-1250 : "max-width: 1250px";
+$sm-400 : "max-width: 400px";
+
 .reports-filter-wrapper {
     background: #fff;
     padding: 15px 27px;
@@ -11,215 +12,225 @@ $sm-400 	: "max-width: 400px";
     margin-bottom: 14px;
     align-items: center;
     justify-content: space-between;
-    @media ($sm-1441)
-    {
+
+    @media ($sm-1441) {
         padding: 15px 15px;
     }
-    @media ($sm-1250)
-    {
+
+    @media ($sm-1250) {
         flex-direction: column;
         align-items: flex-start;
-      
+
     }
+
     .title-block {
         flex: 0 0 auto;
-        font-size:20px;
+        font-size: 20px;
         font-family: "sf-regular";
-        color:$primary-clr;
+        color: $primary-clr;
+
         @media ($sm-1679) {
-            font-size:18px;
+            font-size: 18px;
+        }
+        @media ($sm-1281) {
+            padding-right: 20px;
         }
         @media ($sm-991) {
-            font-size:16px;
+            font-size: 16px;
         }
     }
+
     .filter-block.curvedform {
         display: flex;
         align-items: center;
-        @media ($sm-1250)
-        {
+
+        @media ($sm-1250) {
             width: 100%;
             border-top: 1px solid #e0d4d4;
             margin-top: 11px;
             padding-top: 6px;
         }
-        @media ($sm-991)
-        {
-            flex-wrap:wrap;
+
+        @media ($sm-991) {
+            flex-wrap: wrap;
         }
+
         .form-box {
             margin-right: 30px;
-            flex-grow: 1;
-            @media ($sm-1679)
-            {
+
+            @media ($sm-1679) {
                 margin-right: 10px;
-                width: 100%;
             }
-            @media ($sm-1250)
-            {
-                flex:0 0;
+
+            @media ($sm-1250) {
                 margin-right: 7px;
             }
-            @media ($sm-991)
-            { 
+
+            @media ($sm-991) {
                 flex: 1 1 auto;
             }
-            .form-label
-            {
+
+            .form-label {
                 font-size: 15px;
                 font-family: "sf-medium";
-                color:$primary-clr;
+                color: $primary-clr;
                 padding-left: 10px;
-                @media ($sm-991){
+                display: block;
+                text-align: left;
+                @media ($sm-991) {
                     font-size: 13px;
                 }
             }
+
+            .ant-picker {
+                background-color: #FEFCFF;
+                border: 1px solid #E5D9ED;
+                border-radius: 38px;
+                text-align: left;
+                font-family: "sf-regular";
+                font-size: 18px;
+                color: #A4A4A4;
+                height: 45px;
+                width: 100%;
+            }
+            &.format-box {
+                width: 110px;
+                @media ($sm-1367) {
+                    width: 90px;
+                }
+                @media ($sm-767) {
+                    width: 100%;
+                }
+            }
+            &.category-box{
+                width: 160px;
+                @media ($sm-767) {
+                    width: 100%;
+                }
+            }
         }
-        .form-control
-        {
-            height:45px;
+
+        .form-control {
+            height: 45px;
             font-size: 15px;
             font-family: "sf-regular";
-            color:#333;
-            @media ($sm-991){
+            color: #333;
+
+            @media ($sm-991) {
                 font-size: 13px;
             }
         }
-        .select-wrapper
-        {
-                position: relative;
-                &::after
-                {
-                    content: "";
-                    position: absolute;
-                    right: 15px;
-                    top: 20px;
-                    border-left:6px solid transparent;
-                    border-right:6px solid transparent;
-                    border-top: 6px solid #772ab9;
-                }
-         }
-        .categ-input .form-control
-        {
-            width: 286px;
-            @media ($sm-1679)
-            {
-                width: 220px;
-            }
-            @media ($sm-1441)
-            {
-                width: 200px;
-            }
-            @media ($sm-991)
-            {
-                width:100%;
+
+        .select-wrapper {
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                right: 15px;
+                top: 20px;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-top: 6px solid #772ab9;
             }
         }
-        .date-input .form-control
-        {
+
+        
+
+        .date-input .form-control {
             width: 155px;
-            @media ($sm-1679)
-            {
-                width:140px;
+
+            @media ($sm-1679) {
+                width: 140px;
             }
-            @media ($sm-1441)
-            {
+
+            @media ($sm-1441) {
                 width: 125px;
             }
-            @media ($sm-991)
-            {
-                width:100%;
+
+            @media ($sm-991) {
+                width: 100%;
             }
         }
-        .format-input .form-control
-        {
-            width: 130px;
-            @media ($sm-1679)
-            {
-                width: 110px;
-            }
-            @media ($sm-991)
-            {
-                width:100%;
-            }
-        }
-        .btn-wrapper
-        {
+
+        
+
+        .btn-wrapper {
             margin-top: 29px;
-            @media ($sm-400)
-            {
+
+            @media ($sm-400) {
                 margin-top: 16px;
                 width: 100%;
                 flex-wrap: wrap;
             }
-            button
-            {
-                margin-bottom:0px;
+
+            button {
+                margin-bottom: 0px;
                 width: 153px;
-                height:45px;
-                @media ($sm-1679)
-                {
+                height: 45px;
+
+                @media ($sm-1679) {
                     width: 130px;
                     font-size: 15px;
                 }
-                @media ($sm-1441)
-                {
+
+                @media ($sm-1441) {
                     width: 110px;
                 }
-                @media ($sm-1367)
-                {
+
+                @media ($sm-1367) {
                     width: 105px;
                 }
-                @media ($sm-991)
-                {
+
+                @media ($sm-991) {
                     height: 36px;
                 }
-                @media ($sm-400)
-                {
-                    width:100%;
+
+                @media ($sm-400) {
+                    width: 100%;
                 }
             }
-            .btn-light
-            { 
+
+            .btn-light {
                 margin-right: 17px;
                 background: #F5E7FC;
                 color: #5E2096;
                 border-color: #F5E7FC;
-                &:hover{
-                    border-color:$primary-clr;
+
+                &:hover {
+                    border-color: $primary-clr;
                 }
-                &:active
-                {
+
+                &:active {
                     background-color: #F5E7FC;
                     border-color: #F5E7FC;
                 }
-                @media ($sm-1679)
-                {
+
+                @media ($sm-1679) {
                     margin-right: 10px;
                 }
-                @media ($sm-1250)
-                {
-                    margin-right:5px;
-                   
+
+                @media ($sm-1250) {
+                    margin-right: 5px;
+
                 }
             }
-            
-            
-            .btn-primary
-            {
+
+
+            .btn-primary {
                 display: flex;
-                @media ($sm-400)
-                {
+
+                @media ($sm-400) {
                     margin-bottom: 7px;
                 }
-                &:active
-                {
+
+                &:active {
                     background-color: #5F2095;
                     border-color: #5F2095;
                 }
             }
-            
-            
+
+
         }
     }
 }

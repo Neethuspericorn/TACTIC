@@ -40,6 +40,9 @@
     @media (max-width: 1679px) {
       .reports-filter-wrapper .title-block {
         font-size: 18px; } }
+    @media (max-width: 1281px) {
+      .reports-filter-wrapper .title-block {
+        padding-right: 20px; } }
     @media (max-width: 991px) {
       .reports-filter-wrapper .title-block {
         font-size: 16px; } }
@@ -56,15 +59,12 @@
       .reports-filter-wrapper .filter-block.curvedform {
         flex-wrap: wrap; } }
     .reports-filter-wrapper .filter-block.curvedform .form-box {
-      margin-right: 30px;
-      flex-grow: 1; }
+      margin-right: 30px; }
       @media (max-width: 1679px) {
         .reports-filter-wrapper .filter-block.curvedform .form-box {
-          margin-right: 10px;
-          width: 100%; } }
+          margin-right: 10px; } }
       @media (max-width: 1250px) {
         .reports-filter-wrapper .filter-block.curvedform .form-box {
-          flex: 0 0;
           margin-right: 7px; } }
       @media (max-width: 991px) {
         .reports-filter-wrapper .filter-block.curvedform .form-box {
@@ -73,10 +73,35 @@
         font-size: 15px;
         font-family: "sf-medium";
         color: #6F109E;
-        padding-left: 10px; }
+        padding-left: 10px;
+        display: block;
+        text-align: left; }
         @media (max-width: 991px) {
           .reports-filter-wrapper .filter-block.curvedform .form-box .form-label {
             font-size: 13px; } }
+      .reports-filter-wrapper .filter-block.curvedform .form-box .ant-picker {
+        background-color: #FEFCFF;
+        border: 1px solid #E5D9ED;
+        border-radius: 38px;
+        text-align: left;
+        font-family: "sf-regular";
+        font-size: 18px;
+        color: #A4A4A4;
+        height: 45px;
+        width: 100%; }
+      .reports-filter-wrapper .filter-block.curvedform .form-box.format-box {
+        width: 110px; }
+        @media (max-width: 1367px) {
+          .reports-filter-wrapper .filter-block.curvedform .form-box.format-box {
+            width: 90px; } }
+        @media (max-width: 767px) {
+          .reports-filter-wrapper .filter-block.curvedform .form-box.format-box {
+            width: 100%; } }
+      .reports-filter-wrapper .filter-block.curvedform .form-box.category-box {
+        width: 160px; }
+        @media (max-width: 767px) {
+          .reports-filter-wrapper .filter-block.curvedform .form-box.category-box {
+            width: 100%; } }
     .reports-filter-wrapper .filter-block.curvedform .form-control {
       height: 45px;
       font-size: 15px;
@@ -95,17 +120,6 @@
         border-left: 6px solid transparent;
         border-right: 6px solid transparent;
         border-top: 6px solid #772ab9; }
-    .reports-filter-wrapper .filter-block.curvedform .categ-input .form-control {
-      width: 286px; }
-      @media (max-width: 1679px) {
-        .reports-filter-wrapper .filter-block.curvedform .categ-input .form-control {
-          width: 220px; } }
-      @media (max-width: 1441px) {
-        .reports-filter-wrapper .filter-block.curvedform .categ-input .form-control {
-          width: 200px; } }
-      @media (max-width: 991px) {
-        .reports-filter-wrapper .filter-block.curvedform .categ-input .form-control {
-          width: 100%; } }
     .reports-filter-wrapper .filter-block.curvedform .date-input .form-control {
       width: 155px; }
       @media (max-width: 1679px) {
@@ -116,14 +130,6 @@
           width: 125px; } }
       @media (max-width: 991px) {
         .reports-filter-wrapper .filter-block.curvedform .date-input .form-control {
-          width: 100%; } }
-    .reports-filter-wrapper .filter-block.curvedform .format-input .form-control {
-      width: 130px; }
-      @media (max-width: 1679px) {
-        .reports-filter-wrapper .filter-block.curvedform .format-input .form-control {
-          width: 110px; } }
-      @media (max-width: 991px) {
-        .reports-filter-wrapper .filter-block.curvedform .format-input .form-control {
           width: 100%; } }
     .reports-filter-wrapper .filter-block.curvedform .btn-wrapper {
       margin-top: 29px; }

@@ -138,14 +138,12 @@ a {
 .wrapper {
   display: flex;
   align-items: stretch;
-  min-height: calc(100vh - 80px);
-  transition: all 0.3s ease-in-out; }
+  min-height: calc(100vh - 80px); }
 
 .dashboard-content {
   flex: 1 1 100%;
   max-width: calc(100% - 343px);
-  background: #f5f5f5;
-  transition: all 0.3s ease-in-out; }
+  background: #f5f5f5; }
   @media (max-width: 1679px) {
     .dashboard-content {
       max-width: calc(100% - 320px); } }
@@ -165,8 +163,7 @@ a {
     .dashboard-content {
       max-width: calc(100% - 70px); } }
   .dashboard-content.isactive {
-    max-width: calc(100% - 70px);
-    transition: all 0.3s ease-in-out; }
+    max-width: calc(100% - 70px); }
   .dashboard-content .db-content-inner {
     padding: 25px; }
     @media (max-width: 991px) {
@@ -371,7 +368,7 @@ img {
         font-family: "sf-regular";
         color: #6F109E; }
 
-button.tatic-btn-primary {
+button.static-btn-primary {
   border: 1px solid #6F109E;
   border-radius: 28px;
   background-color: #6F109E;
@@ -379,20 +376,20 @@ button.tatic-btn-primary {
   padding: 12px 35px;
   font: normal normal 400 14px/16px sf-regular;
   margin-right: 5px; }
-  button.tatic-btn-primary.no-bg {
+  button.static-btn-primary.no-bg {
     border: 1px solid #6F109E;
     background: transparent;
     color: #6F109E; }
   @media (max-width: 1367px) {
-    button.tatic-btn-primary {
+    button.static-btn-primary {
       padding: 10px 30px;
       font: normal normal 400 12px/14px sf-regular; } }
   @media (max-width: 1199px) {
-    button.tatic-btn-primary {
+    button.static-btn-primary {
       padding: 9px 25px;
       font: normal normal 400 12px/14px sf-regular; } }
   @media (max-width: 479px) {
-    button.tatic-btn-primary {
+    button.static-btn-primary {
       padding: 10px 25px;
       font: normal normal 400 12px/14px sf-regular; } }
 
@@ -618,12 +615,12 @@ button.tatic-btn-primary {
           width: 100%; } }
     .filter-wrp .filer-btn-collapse .form-check.radio-wrp {
       min-width: 140px; }
-      .filter-wrp .filer-btn-collapse .form-check.radio-wrp .tatic-radio {
+      .filter-wrp .filer-btn-collapse .form-check.radio-wrp .static-radio {
         border-color: #6F109E; }
-        .filter-wrp .filer-btn-collapse .form-check.radio-wrp .tatic-radio:checked {
+        .filter-wrp .filer-btn-collapse .form-check.radio-wrp .static-radio:checked {
           background-color: #6F109E;
           border-color: #6F109E; }
-          .filter-wrp .filer-btn-collapse .form-check.radio-wrp .tatic-radio:checked:focus {
+          .filter-wrp .filer-btn-collapse .form-check.radio-wrp .static-radio:checked:focus {
             box-shadow: none; }
     @media (max-width: 1199px) {
       .filter-wrp .filer-btn-collapse .form-check label {
