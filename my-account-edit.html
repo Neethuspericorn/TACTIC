@@ -214,14 +214,14 @@
             <div class="db-content-inner">
                 <div class="db-title-wrapper d-flex">
                     <div class="title-block">
-                         My Account
+                        My Account
                     </div>
                 </div>
                 <div class="info-content my-account">
-                    <div class="action-btn-wrap">
+                    <!-- <div class="action-btn-wrap">
                         <button class="btn btn-delete" data-bs-toggle="modal" data-bs-target="#delUser"> <img
                                 src="img/edit.svg" alt="edit"> Edit</button>
-                    </div>
+                    </div> -->
                     <div class="row">
                         <!-- profile pic  -->
                         <div class="col col-profile-pic">
@@ -233,53 +233,64 @@
 
                         <!-- profile details  -->
                         <div class="col  col-info-content">
-                            <div class="info-content-details">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="profile-pic">
-                                            <img src="img/my-account-pic.png" class="profile-img" alt="profile pic">
+                            <div class="info-content-details my-account-form">
+                                <div class="curvedform ">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="profile-pic">
+                                                <img src="img/my-account-pic.png" class="profile-img" alt="profile pic">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
-                                        <h4 class="info-title">First Name :</h4>
-                                        <div class="info-detail">
-                                            Bradley
+                                    <div class="row">
+                                        <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
+                                            <div class="form-box">
+                                                <label class="form-label">First Name</label>
+                                                <input type="text" class="form-control" placeholder="Bradley">
+                                            </div>
                                         </div>
+
+                                        <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
+                                            <div class="form-box">
+                                                <label class="form-label">Last Name</label>
+                                                <input type="text" class="form-control" placeholder="Robin">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
+                                            <div class="form-box">
+                                                <label class="form-label">Email</label>
+                                                <input type="email" class="form-control"
+                                                    placeholder="Bradleyrobin@gmail.com">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
+                                            <div class="form-box">
+                                                <label class="form-label">Phone</label>
+                                                <input type="text" class="form-control" placeholder="+ 408-201-7237">
+                                            </div>
+                                        </div>
+
                                     </div>
 
-                                    <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
-                                        <h4 class="info-title">Last Name:</h4>
-                                        <div class="info-detail">
-                                            Robin
+                                    <div class="row">
+                                        <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
+                                            <div class="form-box">
+                                                <label class="form-label">Password</label>
+                                                <input type="text" class="form-control" placeholder="**************">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <button class="btn btn-change">Change Password</button>
                                         </div>
                                     </div>
-
-                                    <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
-                                        <h4 class="info-title">Email :</h4>
-                                        <div class="info-detail">
-                                            Bradleyrobin@gmail.com
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
-                                        <h4 class="info-title">Phone :</h4>
-                                        <div class="info-detail">
-                                            + 408-201-7237
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-                                    <!-- <div class="col">
-                                        <button class="btn btn-change">Change Password</button>
-                                    </div> -->
-                                    <div class="col-xxl-3 col-xl-6 col-sm-6 info-item">
-                                        <h4 class="info-title">Password :</h4>
-                                        <div class="info-detail">
-                                            *****************
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="my-account-btn">
+                                                <button class="btn btn-cancel">Cancel</button>
+                                                <button class="btn btn-primary">Submit</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

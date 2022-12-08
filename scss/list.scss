@@ -5,21 +5,27 @@
 .info-content.list-content {
     min-height: 380px;
     padding: 100px 116px;
-    @media screen and (max-width: 1679px){
+
+    @media screen and (max-width: 1679px) {
         padding: 70px 90px;
     }
-    @media screen and (max-width: 1440px){
+
+    @media screen and (max-width: 1440px) {
         padding: 50px 70px;
     }
-    @media screen and (max-width: 1200px){
+
+    @media screen and (max-width: 1200px) {
         padding: 30px 50px;
     }
-    @media screen and (max-width: 992px){
+
+    @media screen and (max-width: 992px) {
         padding: 30px 20px;
     }
+
     .curvedform {
         .form-box {
             padding-bottom: 30px;
+
             .form-label {
                 font-size: 14px;
             }
@@ -28,11 +34,13 @@
                 height: 54px;
                 font-size: 14px;
                 color: #BCBCBD;
-		@media screen and (max-width: 1440px){
-                    height:50px;
-                } 
-                @media screen and (max-width: 992px){
-		 height: 45px;
+
+                @media screen and (max-width: 1440px) {
+                    height: 50px;
+                }
+
+                @media screen and (max-width: 992px) {
+                    height: 45px;
                 }
             }
         }
@@ -61,7 +69,8 @@
                 border-radius: 100px;
                 padding: 0;
                 background-size: 13px;
-                &:focus{
+
+                &:focus {
                     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.027);
                 }
             }
@@ -112,9 +121,11 @@
     .reset-password-modal .reset-password-img {
         width: 100px;
     }
+
     .reset-password-modal .modal-content .modal-body .reset-password h4 {
         font-size: 20px;
     }
+
     .reset-password-modal .modal-content .modal-body .reset-password .btn-primary {
         height: 44px;
         font-size: 16px;
@@ -122,56 +133,69 @@
         margin-bottom: 30px;
     }
 }
+
 @media ($sm-1367) {
     .list-content .curvedform .form-box .form-control {
         height: 44px;
         font-size: 13px;
         color: #BCBCBD;
     }
+
     .list-content .curvedform .form-box .form-label {
         font-size: 13px;
     }
-    .info-content.list-content .curvedform .btn.btn-primary{
+
+    .info-content.list-content .curvedform .btn.btn-primary {
         height: 44px;
         font-size: 14px;
     }
+
     .reset-password-modal .modal-content .modal-header .btn-close {
         width: 28px;
         height: 28px;
         background-size: 10px;
     }
+
     .info-content.list-content .curvedform .form-box .form-control {
         height: 44px;
     }
+
     .info-content.list-content {
         padding: 40px 50px;
     }
 }
+
 @media ($sm-1281) {
     .reset-password-modal .modal-content .modal-body .reset-password h4 {
         font-size: 18px;
     }
+
     .reset-password-modal .modal-content .modal-header .btn-close {
         width: 24px;
         height: 24px;
         background-size: 9px;
     }
+
     .reset-password-modal .reset-password-img {
         width: 80px;
     }
+
     .reset-password-modal .modal-content .modal-body .reset-password .btn-primary {
         height: 40px;
         font-size: 14px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     .reset-password-modal .modal-content .modal-body .reset-password h4 {
         font-size: 16px;
         margin: 10px 0 8px;
     }
+
     .reset-password-modal .reset-password-img {
         width: 65px;
     }
+
     .reset-password-modal .modal-content .modal-body .reset-password .btn-primary {
         margin-top: 15px;
         margin-bottom: 15px;

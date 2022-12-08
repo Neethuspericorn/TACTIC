@@ -247,6 +247,76 @@
           height: 160px;
           border: none;
           border-radius: 10px; }
+    .info-content .info-content-details.my-account-form {
+      padding-top: 0 !important; }
+      .info-content .info-content-details.my-account-form .curvedform .btn-change {
+        margin-top: 40px; }
+        @media (max-width: 1023px) {
+          .info-content .info-content-details.my-account-form .curvedform .btn-change {
+            margin-bottom: 30px; } }
+      .info-content .info-content-details.my-account-form .curvedform .info-item {
+        padding-bottom: 0; }
+        .info-content .info-content-details.my-account-form .curvedform .info-item .form-box {
+          padding-bottom: 30px; }
+          @media (max-width: 1367px) {
+            .info-content .info-content-details.my-account-form .curvedform .info-item .form-box {
+              padding-bottom: 30px; } }
+          .info-content .info-content-details.my-account-form .curvedform .info-item .form-box .form-label {
+            font-size: 14px;
+            font-family: "sf-medium";
+            color: #1E1B1E;
+            margin-bottom: 8px; }
+          .info-content .info-content-details.my-account-form .curvedform .info-item .form-box .form-control {
+            height: 54px;
+            font-size: 14px;
+            color: #BCBCBD;
+            background-color: #FEFCFF;
+            border: 1px solid #E5D9ED;
+            border-radius: 38px;
+            text-align: left;
+            font-family: "sf-regular"; }
+            @media screen and (max-width: 1440px) {
+              .info-content .info-content-details.my-account-form .curvedform .info-item .form-box .form-control {
+                height: 50px; } }
+            @media (max-width: 1367px) {
+              .info-content .info-content-details.my-account-form .curvedform .info-item .form-box .form-control {
+                height: 44px; } }
+            @media screen and (max-width: 992px) {
+              .info-content .info-content-details.my-account-form .curvedform .info-item .form-box .form-control {
+                height: 45px; } }
+      .info-content .info-content-details.my-account-form .curvedform .my-account-btn {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 43px; }
+        @media (max-width: 1367px) {
+          .info-content .info-content-details.my-account-form .curvedform .my-account-btn {
+            margin-top: 30px; } }
+        @media (max-width: 1023px) {
+          .info-content .info-content-details.my-account-form .curvedform .my-account-btn {
+            margin-top: 20px; } }
+        @media (max-width: 767px) {
+          .info-content .info-content-details.my-account-form .curvedform .my-account-btn {
+            display: block; } }
+        .info-content .info-content-details.my-account-form .curvedform .my-account-btn .btn {
+          width: 187px;
+          height: 51px;
+          margin: 0;
+          font-size: 14px;
+          font-family: 'sf-regular'; }
+          @media (max-width: 1367px) {
+            .info-content .info-content-details.my-account-form .curvedform .my-account-btn .btn {
+              height: 44px; } }
+          @media (max-width: 767px) {
+            .info-content .info-content-details.my-account-form .curvedform .my-account-btn .btn {
+              width: 100%; } }
+          .info-content .info-content-details.my-account-form .curvedform .my-account-btn .btn.btn-cancel {
+            border: 1px solid #5E2096;
+            border-radius: 38px;
+            color: #5E2096;
+            margin-right: 16px; }
+            @media (max-width: 767px) {
+              .info-content .info-content-details.my-account-form .curvedform .my-account-btn .btn.btn-cancel {
+                margin-bottom: 15px; } }
   .info-content .info-item {
     padding-bottom: 50px; }
     @media screen and (max-width: 1679px) {
